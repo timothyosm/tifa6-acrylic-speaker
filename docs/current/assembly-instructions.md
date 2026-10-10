@@ -4,7 +4,7 @@ Coordinates are x across the front, y from front to rear, z above the base. All 
 
 ## Preparation and seals
 
-Laser-cut the seven 10 mm sheets from `exports/current/laser/`, or print the seven whole panels from `exports/current/stl/` to test their geometry. Print the 12 fittings from the same STL folder for an assembled build. There is no printer-size limit for this set. Test the 80 x 50 mm coupon before committing to the cabinet. Measure stock and kerf; nominal 10 mm dimensions are not automatically correct for a particular sheet. Check the real drivers, driver screw heads, crossover envelope and inserts. Protect the front panel's narrow 5.4 mm ligament above the tweeter opening until its carrier is fitted.
+Laser-cut the seven 10 mm sheets from `exports/current/laser/`. Print the 12 fittings from `exports/current/stl/`; the seven flat panel STLs in that folder are matching dimensional references. Test the 80 x 50 mm coupon before committing to the cabinet. Measure stock and kerf; nominal 10 mm dimensions are not automatically correct for a particular sheet. Check the real drivers, driver screw heads, crossover envelope and inserts. Protect the front panel's narrow 5.4 mm ligament above the tweeter opening until its carrier is fitted.
 
 Install 60 M3 heat-set inserts in the PRINTED fittings while separate. Use 4 mm-long inserts specified for a 4.2 mm pilot in the chosen polymer; most pilots are 5 mm deep, driver pilots 7 mm. Test the insert supplier's fit and retention on scrap. No insert or thread belongs in acrylic.
 
@@ -22,7 +22,7 @@ Join the woofer's two carrier halves at z=160, sealing their 0.2 mm split with a
 
 ## Port and rear subassembly
 
-Use the single `bass_reflex_port.stl`: 50 mm bore, 185 mm mouth-to-inlet length and R14 outlet flare. Its two older halves are superseded. No coupling gasket, coupling bolts or coupling nuts are needed. The exterior flange bears on the rear sheet through a 0.5 mm compressed gasket (73 mm ID, 96 mm OD, four holes on 88 mm PCD). Secure with four M3 x 20 screws, head washers/cushions and internal flat washers/nuts. The 72.5 mm spigot fits the 73 mm panel opening. The mouth plane sits 3.5 mm beyond the rear sheet.
+Use the single `bass_reflex_port.stl`: 50 mm bore, 185 mm mouth-to-inlet length and R14 outlet flare. No coupling gasket, coupling bolts or coupling nuts are needed. The exterior flange bears on the rear sheet through a 0.5 mm compressed gasket (73 mm ID, 96 mm OD, four holes on 88 mm PCD). Secure with four M3 x 20 screws, head washers/cushions and internal flat washers/nuts. The 72.5 mm spigot fits the 73 mm panel opening. The mouth plane sits 3.5 mm beyond the rear sheet.
 
 Fit the crossover to a 120 x 90 x 2 mm insulating board with 100 x 70 mm mounting-hole pattern. Use four purchased female/female M3 x 20 mm spacers, four M3 x 16 rear screws and four M3 x 6 board screws. The populated assembly must fit x +/-60, z100..190 and 55 mm depth in front of the spacer tips. This is a mounting envelope, not a supplied PCB layout. Keep the manufacturer's circuit, component values, coil specifications and polarity. Fit two insulated binding posts suitable for 8 mm panel holes with their supplied nuts and seals.
 
@@ -42,4 +42,4 @@ Undo the eight rear perimeter screws and withdraw the rear panel backwards with 
 
 Screw paths and final component envelopes are checked digitally. The proposed sequence provides open top/front/rear access during installation, but real hand access, tool use, gasket compression, insert pull-out strength and sheet behaviour require a dry assembly. There are no qualified load or tightening-torque ratings.
 
-The current parts manifest contains 19 files: seven sheet parts, eight rail pieces, three driver-adapter pieces and one port. Print one of each for the full test assembly. For final acrylic construction, cut the seven sheets and print only the 12 fittings. The adapters and rails remain split as in the established design; this publication does not redesign them.
+The parts manifest contains seven flat sheet STLs and 12 fitting STLs. Cut the seven acrylic sheets and print only the fittings. The supplied flat panel STLs match the cutting profiles at 10 mm thickness.

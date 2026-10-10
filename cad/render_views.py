@@ -32,8 +32,8 @@ W,D,H=meta['dimensions_mm'];dark=(.12,.15,.17);acrylic=(.38,.68,.74);orange=(.9,
 def load_variant(v):
     path=ROOT/'exports'/v/'step'
     return {n:cq.importers.importStep(str(path/(n+'.step'))).val() for n in meta['variants'][v]['assembly_parts']}
-parts=load_variant('unrestricted');proto=load_variant('a1_mini')
-path=ROOT/'exports/unrestricted/step'
+parts=load_variant('current')
+path=ROOT/'exports/current/step'
 refs={n:cq.importers.importStep(str(path/('reference_'+n+'.step'))).val() for n in ['woofer','tweeter','crossover']}
 items=[(s,acrylic,.3) if n in meta['panel_profiles'] else (s,dark,1) for n,s in parts.items()]
 render(items+[(refs[n],dark,1) for n in ['woofer','tweeter']],'assembled',(650,-1050,520),focus=(0,130,190),title='10 MM ACRYLIC / M3 ASSEMBLY',subtitle=f'220 x {D:.1f} x 380 mm | 16.1 L nominal | Clear material shown for inspection')
@@ -42,21 +42,30 @@ exploded=[]
 for n,s in parts.items():
     move=(0,0,0)
     if n=='front' or 'adapter' in n:move=(0,-130,0)
-    elif n=='rear' or n.startswith('port_'):move=(0,120,0)
+    elif n=='rear' or n=='bass_reflex_port':move=(0,120,0)
     elif n=='left':move=(-105,0,0)
     elif n=='right':move=(105,0,0)
     elif n=='top':move=(0,0,100)
     elif n=='bottom':move=(0,0,-90)
     elif n=='brace':move=(0,0,35)
     exploded.append((s.translate(move),acrylic if n in meta['panel_profiles'] else dark,.7 if n in meta['panel_profiles'] else 1))
-render(exploded,'exploded',(800,-1100,600),focus=(0,140,190),title='UNRESTRICTED / LASER-CUT BUILD',subtitle='Six outer sheets + one window brace | Eight rails + three adapter pieces + two port pieces')
-view=[]
-for n,s in proto.items():
-    view.append((s,orange if n.startswith('splice_') else acrylic if n in meta['prototype_tiles'] else dark,1))
-render(view,'a1_prototype',(650,-1050,520),focus=(0,130,190),title='A1 MINI / SAME ASSEMBLED PANEL GEOMETRY',subtitle='32 sheet tiles | 13 fittings | 15 temporary joining pieces shown in orange')
+render(exploded,'exploded',(800,-1100,600),focus=(0,140,190),title='LASER-CUT ACRYLIC BUILD',subtitle='Six outer sheets + one window brace | Eight rails + three adapter pieces + one continuous port')
 section=[]
 for n,s in {**parts,**refs}.items():
     cut=s.intersect(box(0,-10,-10,200,400,450))
     if cut.Volume()>.01:section.append((cut,acrylic if n in meta['panel_profiles'] else dark,1))
 render(section,'sectional',(-1000,-300,530),focus=(0,130,190),title='INTERNAL FIT / NO AMPLIFIER',subtitle='Printed driver seats | Four-wall window brace | 50 mm bore, 185 mm port')
-print('Rendered acrylic production and A1 prototype assemblies')
+print('Rendered acrylic enclosure')
+# Overview directly from the matching cutting profiles.
+import xml.etree.ElementTree as ET
+import pymupdf
+svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="950" viewBox="0 0 1440 950">',
+ '<rect width="1440" height="950" fill="#f4f5f6"/>',
+ '<g font-family="Helvetica,Arial,sans-serif" fill="#20252b"><text x="38" y="43" font-size="27">Laser-cut acrylic panels / matching flat STLs</text><text x="38" y="73" font-size="17">7 pieces / 10 mm thick / full-size profiles</text></g>']
+for i,n in enumerate(['front','rear','left','right','top','bottom','brace']):
+    w,h=meta['panel_profiles'][n]['size'];x=38+(i%4)*354;y=115+(i//4)*410;scale=min(300/w,340/h)
+    original=ET.parse(ROOT/'exports/current/laser'/(n+'.svg')).getroot();group=list(original)[0]
+    group.set('stroke-width','0.85');group.set('stroke','#2f6374')
+    svg.append(f'<g transform="translate({x} {y})"><text font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#20252b">{n.upper()} / {w:.2f} x {h:.2f}</text><g transform="translate(0 18) scale({scale})">{ET.tostring(group,encoding="unicode")}</g></g>')
+svg.append('</svg>');content=''.join(svg);(ROOT/'renders/whole_panels.svg').write_text(content)
+doc=pymupdf.open(stream=content.encode(),filetype='svg');doc[0].get_pixmap().save(str(ROOT/'renders/whole_panels.png'))

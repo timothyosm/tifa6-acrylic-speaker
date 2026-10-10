@@ -1,8 +1,15 @@
 {
   "all_pass": true,
-  "STLs_checked": 95,
-  "current_STLs": 19,
-  "local_document_links_pass": true,
-  "private_text_scan_pass": true,
-  "third_party_reference_downloads_excluded": true
+  "STLs_checked": 20,
+  "panel_STLs": 7,
+  "fitting_STLs": 12,
+  "optional_coupon_STLs": 1,
+  "checks": {
+    "interference_report.json": true,
+    "profile_report.json": true,
+    "freecad_report.json": true,
+    "current_build_report.json": true
+  },
+  "previous_variant_folders_present": false,
+  "document_links_pass": true
 }

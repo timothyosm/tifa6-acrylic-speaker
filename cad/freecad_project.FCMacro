@@ -1,31 +1,31 @@
-"""Import both checked export sets into one native FreeCAD assembly document."""
+"""Import the acrylic enclosure into one native FreeCAD assembly document."""
 from pathlib import Path
 import json
 import FreeCAD as App, Part
 ROOT=Path(__file__).resolve().parents[1]
 m=json.loads((ROOT/'validation/geometry_report.json').read_text())
 doc=App.newDocument('AcrylicTifa6')
-for variant in ['unrestricted','a1_mini']:
-    group=doc.addObject('App::Part',variant);group.Label='Unrestricted acrylic panels' if variant=='unrestricted' else 'A1 mini matched prototype'
+for variant in ['current']:
+    group=doc.addObject('App::Part',variant);group.Label='Acrylic enclosure'
     for name in m['variants'][variant]['assembly_parts']:
         obj=doc.addObject('PartDesign::Feature',variant+'_'+name);obj.Label=name
         path='exports/'+variant+'/step/'+name+'.step'
         obj.Shape=Part.read(str(ROOT/path));group.addObject(obj)
         obj.addProperty('App::PropertyString','SourceSTEP');obj.SourceSTEP=path
         if App.GuiUp:
-            sheet=name in m['panel_profiles'] or name in m['prototype_tiles']
+            sheet=name in m['panel_profiles']
             obj.ViewObject.ShapeColor=(.45,.7,.75) if sheet else (.2,.23,.25)
             obj.ViewObject.Transparency=65 if sheet else 0
-    if App.GuiUp:group.ViewObject.Visibility=variant=='unrestricted'
+    if App.GuiUp:group.ViewObject.Visibility=True
 refs=doc.addObject('App::Part','References');refs.Label='Purchased components - approximate geometry'
 for name in ['woofer','tweeter','crossover','spacers']:
-    obj=doc.addObject('PartDesign::Feature','reference_'+name);path='exports/unrestricted/step/reference_'+name+'.step'
+    obj=doc.addObject('PartDesign::Feature','reference_'+name);path='exports/current/step/reference_'+name+'.step'
     obj.Shape=Part.read(str(ROOT/path));refs.addObject(obj);obj.addProperty('App::PropertyString','SourceSTEP');obj.SourceSTEP=path
 info=doc.addObject('Spreadsheet::Sheet','Dimensions')
-rows=[('Width mm',220),('Depth mm',m['dimensions_mm'][1]),('Height mm',380),('Sheet thickness mm',10),('Production air L',m['variants']['unrestricted']['nominal_net_litres']),('Prototype air L',m['variants']['a1_mini']['nominal_net_litres']),('Editable source','speaker_assembly.py + panel_exports.py + speaker_parameters.json')]
+rows=[('Width mm',220),('Depth mm',m['dimensions_mm'][1]),('Height mm',380),('Sheet thickness mm',10),('Production air L',m['variants']['current']['nominal_net_litres']),('Editable source','speaker_assembly.py + panel_exports.py + speaker_parameters.json')]
 for i,(label,value) in enumerate(rows,1):info.set('A'+str(i),label);info.set('B'+str(i),str(value))
 info.setColumnWidth('A',190);info.setColumnWidth('B',500);doc.recompute()
 if App.GuiUp:
     import FreeCADGui as Gui
     Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
-doc.saveAs(str(ROOT/'cad/speaker_assembly.FCStd'));print('Saved both acrylic enclosure variants')
+doc.saveAs(str(ROOT/'cad/speaker_assembly.FCStd'));print('Saved acrylic enclosure')

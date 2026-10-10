@@ -1,5 +1,5 @@
-"""10 mm acrylic Tifa derivative. Millimetres. Shared sheet profiles -> DXF/SVG/STL.
-Run this file with CadQuery; export and A1 subdivision are in panel_exports.py.
+"""10 mm acrylic Tifa derivative. Millimetres. Whole sheet profiles -> DXF/SVG/STL.
+Run this file with CadQuery; manufacturing exports are in panel_exports.py.
 """
 from pathlib import Path
 import json, math
@@ -119,17 +119,14 @@ def geometry(D):
            .threePointArc((r+R-R/math.sqrt(2),-R+R/math.sqrt(2)),(r+R,0))
            .lineTo(r+R,1).lineTo(0,1).close().revolve(360,(0,0),(0,1)).val())
     def portplace(s):return s.rotate((0,0,0),(1,0,0),-90).translate((0,mouth,pz))
-    outer=portplace(outer);inner=portplace(inner);j=mouth-100
-    portouter=outer.fuse(cyl(36,8.5,0,j-4.25,pz)).clean()
+    outer=portplace(outer);inner=portplace(inner)
+    portouter=outer
     port=portouter.cut(inner).clean();hole('rear',(0,D,pz),73,'port spigot')
     for a in [45,135,225,315]:
         x=44*math.cos(math.radians(a));z=pz+44*math.sin(math.radians(a))
         hole('rear',(x,D,z));port=port.cut(cyl(1.7,5,x,D-1,z))
         screw('port_flange_nut',(x,mouth+1.5,z),(0,-1,0),20)
-    for x in [-32,32]:
-        port=port.cut(cyl(1.7,10,x,j-5,pz));screw('port_coupling_nut',(x,j-5.75,pz),(0,1,0),16)
-    fittings['port_inlet']=port.intersect(box(-60,mouth-L-1,pz-60,120,L-100+.75,120)).clean()
-    fittings['port_mouth']=port.intersect(box(-60,j+.25,pz-60,120,101,120)).clean()
+    fittings['bass_reflex_port']=port.clean()
     # Standard purchased crossover stand-offs, not additional printed brackets.
     for x in [-15,15]:hole('rear',(x,D,225),8,'binding post')
     spacers=[]
@@ -160,16 +157,14 @@ def geometry(D):
         before=air.Volume();air=air.cut(s).clean();ledger[name+'_litres']=(before-air.Volume())/1e6
     ledger['nominal_net_litres']=air.Volume()/1e6
     meta={'dimensions_mm':[W,D,H],'thickness_mm':10,'volume':ledger,'bolts':bolts,'inserts':inserts,
-        'driver_holes':driver_holes,'adapter_mounts':adapter_mounts,'port_mouth_y':mouth,'port_joint_y':j,
+        'driver_holes':driver_holes,'adapter_mounts':adapter_mounts,'port_mouth_y':mouth,
         'port_inlet_to_front_wall_mm':mouth-L-10,'port_inlet_edge_to_floor_mm':pz-r-10,'gasket_mm':g}
     return panels,shapes,fittings,proxies,air,meta
 
 def model():
-    trial=geometry(266)
-    slope=200*360-60*10
-    depth=266+(P['target_net_litres']-trial[-1]['volume']['nominal_net_litres'])*1e6/slope
-    result=geometry(depth)
-    assert abs(result[-1]['volume']['nominal_net_litres']-16.1)<1e-5
+    # Keep the released whole-panel dimensions. The continuous port gives ~16.115 L.
+    result=geometry(P['depth'])
+    assert abs(result[-1]['volume']['nominal_net_litres']-P['target_net_litres'])<.03
     return result
 
 if __name__=='__main__':

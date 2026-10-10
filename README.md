@@ -1,67 +1,52 @@
 # Tifa 6 acrylic speaker enclosure
 
-A rectangular, M3-assembled speaker enclosure with **whole 10 mm panels and a one-piece bass-reflex port**. This is an independent enclosure derivative using the original SB Acoustics Tifa 6 drivers and crossover.
+Laser-cut patterns, matching flat panel STLs, and printed fittings for one rectangular, M3-assembled speaker enclosure.
 
-**Cabinet:** 220 W x 380 H x 262.652 D mm. **Net volume:** approximately 16.1 L. **Port:** 50 mm bore x 185 mm long with a flared outlet. One passive speaker; no amplifier compartment.
+**220 W x 380 H x 262.652 D mm · 10 mm acrylic · approximately 16.1 L net volume**
 
-![Whole panel outlines](renders/whole_panels.png)
+![Panel outlines](renders/whole_panels.png)
 
-## Download and print
+## Files to use
 
-**[Download the current build ZIP](https://github.com/timothyosm/tifa6-acrylic-speaker/releases/latest/download/tifa6-current-build.zip)** or browse [all current STL files](exports/current/stl/).
+- **[Download the acrylic build](https://github.com/timothyosm/tifa6-acrylic-speaker/releases/latest/download/tifa6-current-build.zip)**
+- [Laser-cut patterns: DXF and SVG](exports/current/laser/)
+- [STL files: flat panels and fittings](exports/current/stl/)
+- [Parts manifest](exports/current/print-manifest.csv)
+- [STEP assembly](exports/current/step/assembly_with_components.step)
+- [Fit coupon](exports/calibration/)
 
-| What you want to make | Parts |
-|---|---|
-| Panel and port geometry check | Seven whole panels + one-piece port: 8 prints |
-| Complete printed test enclosure | All 19 current STLs, one of each |
-| Final acrylic enclosure | Laser-cut seven sheets; print the 12 fittings |
+Cut **seven acrylic pieces**: front, rear, left, right, top, bottom and window brace. The matching seven panel STLs are full outlines extruded to 10 mm, lying flat, with the same holes and cutouts. All dimensions are millimetres; do not scale.
 
-The complete set includes six outer panels, one window brace, eight corner-rail pieces, two woofer-adapter halves, one tweeter adapter and one continuous port. The rail/adapter splits are retained from the established design; this release gathers the files rather than redesigning them. Printer size is unrestricted for the current set. Print at **100% scale in millimetres**.
+Print the **12 fittings** used by the acrylic enclosure: eight corner-rail pieces, two woofer-adapter halves, one tweeter adapter and one continuous bass-reflex port. The port is `bass_reflex_port.stl`: 50 mm bore, 185 mm long, with a flared outlet. Rails and adapters use the established split geometry. There are no tiled cabinet panels or splice strips.
 
-The panel/port-only set does not include the corner supports or driver seats. Use the full set for an assembled fit test. All structural joints use M3 screws and replaceable seals; no solvent-bonded panels or aluminium rail substitutions are used.
+## Assembly
 
-## Build instructions
+- [Assembly instructions](docs/current/assembly-instructions.md)
+- [Hardware list](docs/current/hardware.md)
+- [Cutting and printing instructions](docs/current/printing-and-cutting.md)
+- [Fastener locations](exports/current/fastener-map.csv)
+- [Verification and acoustic notes](docs/current/verification-and-acoustics.md)
 
-1. Read [printing and laser cutting](docs/current/printing-and-cutting.md), then the [hardware list](docs/current/hardware.md).
-2. Follow the [assembly instructions](docs/current/assembly-instructions.md). Install the brace before the front/driver assembly.
-3. Use the [print manifest](exports/current/print-manifest.csv) and [fastener map](exports/current/fastener-map.csv) to check quantities and locations.
-4. Review [verification and acoustic limits](docs/current/verification-and-acoustics.md).
+All panel joints use M3 screws and replaceable gaskets. Hardware includes **72 M3 screws, 60 inserts and four port nuts**, plus washers, crossover spacers and binding-post hardware. The rear panel removes with the port and crossover attached. Install the brace before the front/driver assembly.
 
-Current hardware: **72 M3 screws, 60 inserts and four port nuts**, plus washers, four crossover spacers and binding-post hardware. The rear panel removes with its port and crossover attached for service.
+Use nominal 10 mm acrylic and uncompensated cutting profiles. Confirm actual stock thickness and laser kerf using the coupon. Heat-set inserts belong in the printed fittings, never in acrylic.
 
-## Files
+## CAD and checks
 
-- [Current STLs](exports/current/stl/) — whole panels, fittings and one-piece port
-- [Current DXF/SVG laser profiles](exports/current/laser/) — identical panel outlines, nominal 10 mm stock, uncompensated kerf
-- [Current STEP assembly](exports/current/step/assembly_with_components.step) — includes approximate purchased components
-- [Calibration coupon](exports/calibration/) — confirm stock thickness, hole fit and kerf
-- [Editable CAD source](cad/speaker_assembly.py), [parameters](cad/speaker_parameters.json), [current build packager](cad/package_current_build.py)
-- [Current validation report](exports/current/verification.json)
-- [Manufacturer source links](docs/source-register.md) — original drivers, crossover and acrylic fabrication guidance
+[Editable source](cad/speaker_assembly.py) · [Parameters](cad/speaker_parameters.json) · [FreeCAD assembly](cad/speaker_assembly.FCStd) · [Validation report](exports/current/verification.json)
 
-All earlier STL variants are retained under [A1 mini](exports/a1_mini/), [original unrestricted set](exports/unrestricted/), [panel-only set](exports/whole_panels/) and [standalone port](exports/one_piece_port/). **Do not combine their manifests or print the older port halves in addition to the current port.** Root-level documents under `docs/`, the existing PDF drawings and the FreeCAD assembly are historical split-port/A1 references; use `docs/current/` for this release.
-
-## Validation status
-
-Current STLs pass connected/watertight geometry checks. Panel outlines match their laser profiles, and the port fits the rear panel and clears the checked component envelopes. Physical printing, assembly, sealing, strength and acoustic testing have not been performed. The printed prototype does not establish acrylic acoustic behaviour, and the changed flat baffle does not guarantee the original Tifa frequency response.
-
-## Rebuild the exports
-
-Use Python 3.12 with `pip install -r cad/requirements.txt`. Run these commands from the repository root:
+With Python 3.12 and the packages in `cad/requirements.txt`, regenerate and check the files:
 
 ```sh
 python cad/speaker_assembly.py
 python cad/inspect_geometry.py
 python cad/verify_profiles.py
-python cad/export_whole_panels.py
-python cad/export_one_piece_port.py
-python cad/package_current_build.py
 ```
 
-The first command regenerates the base variants and replaces `exports/`, so run the subsequent exporters to restore the current set. `cad/render_views.py` and `cad/make_documentation.py` reproduce the historical base illustrations/drawings. The FreeCAD macro and validator also target those base variants. The current assembly STEP is produced by `package_current_build.py`.
+`cad/render_views.py` regenerates the views. Run `cad/freecad_project.FCMacro` in FreeCAD, then `cad/verify_freecad.py` with FreeCAD's Python runtime to rebuild and check the native document. Python/JSON is the parametric source; FCStd holds imported solids and a dimension sheet. The manufacturing layout assumes 220 x 380 mm and 10 mm stock.
 
-Python/JSON is the parametric source. FCStd contains imported editable solids and a dimension sheet, not a sketch-based feature history. The fixed panel layout assumes 220 x 380 mm and 10 mm stock; dimensional changes require reviewing fits and joints.
+Geometry, panel-profile consistency and mounting clearances are checked digitally. Physical fabrication, fit, sealing, strength and sound remain untested. The flat baffle and acrylic construction differ from the original Tifa cabinet; acoustic equivalence is not established.
 
 ## References
 
-This is not an official SB Acoustics enclosure release. The driver specifications and crossover belong to their respective rights holders. Manufacturer PDFs are linked from the source register rather than redistributed here.
+This independent enclosure derivative uses the original SB Acoustics SB16PFCR25-4, SB26ST-C000-5 and Tifa 6 crossover. Keep the specified electrical components and polarity. See the [official source links](docs/source-register.md); manufacturer PDFs are linked rather than redistributed.

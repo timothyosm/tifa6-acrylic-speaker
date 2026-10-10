@@ -8,8 +8,7 @@ m=json.loads((ROOT/'validation/geometry_report.json').read_text());records=[]
 def close(a,b):return abs(a-b)<1e-6
 for rec in m['profile_checks']:
  name=rec['part'];variant=rec['variant'];base=ROOT/'exports'/variant
- if variant=='unrestricted':size=m['panel_profiles'][name]['size']
- else:size=m['prototype_tiles'][name]['size']
+ size=m['panel_profiles'][name]['size']
  root=ET.parse(base/'laser'/(name+'.svg')).getroot();g=list(root)[0]
  assert close(float(root.attrib['width'][:-2]),size[0]) and close(float(root.attrib['height'][:-2]),size[1])
  assert g.attrib['transform']==f'translate(0 {size[1]:.8f}) scale(1 -1)'
