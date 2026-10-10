@@ -1,0 +1,240 @@
+{
+  "all_pass": true,
+  "profiles": [
+    {
+      "variant": "unrestricted",
+      "part": "front",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "unrestricted",
+      "part": "rear",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "unrestricted",
+      "part": "left",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "unrestricted",
+      "part": "right",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "unrestricted",
+      "part": "bottom",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "unrestricted",
+      "part": "top",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "unrestricted",
+      "part": "brace",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_11",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_12",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_13",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_21",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_22",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_23",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_11",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_12",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_13",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_21",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_22",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_23",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "left_11",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "left_12",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "left_21",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "left_22",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "right_11",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "right_12",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "right_21",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "right_22",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "bottom_11",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "bottom_12",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "bottom_21",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "bottom_22",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "top_11",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "top_12",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "top_21",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "top_22",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "brace_11",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "brace_12",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "brace_21",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    },
+    {
+      "variant": "a1_mini",
+      "part": "brace_22",
+      "SVG_geometry_matches_DXF": true,
+      "STL_thickness_10_mm": true
+    }
+  ],
+  "scope": "SVG circle/line/arc coordinates, direction, units and viewport compared to saved DXF; sheet mesh thickness checked. DXF-to-CAD roundtrip is in geometry_report.json."
+}

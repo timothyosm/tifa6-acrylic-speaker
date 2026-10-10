@@ -1,0 +1,46 @@
+{
+  "design": "10 mm acrylic passive Tifa 6 derivative with matching A1 test tiles",
+  "dimensions_width_depth_height_mm": [
+    220.0,
+    262.6521600701435,
+    380.0
+  ],
+  "wall_mm": 10,
+  "print_guard_mm": [
+    178,
+    178,
+    180
+  ],
+  "variants": {
+    "unrestricted": {
+      "net_litres": 16.10000000000002,
+      "sheet_parts": 7,
+      "physical_parts": 20,
+      "unique_STL_files": 20
+    },
+    "a1_mini": {
+      "net_litres": 16.091519056457397,
+      "sheet_parts": 32,
+      "physical_parts": 60,
+      "unique_STL_files": 47
+    }
+  },
+  "M3_screws": {
+    "unrestricted": 74,
+    "a1_mini": 116
+  },
+  "checks": {
+    "interference_report.json": true,
+    "freecad_report.json": true,
+    "profile_report.json": true
+  },
+  "physical_testing_performed": false,
+  "limitations": [
+    "Component displacement, wire and metal hardware allowances are estimates.",
+    "Actual sheet thickness and laser kerf require a coupon.",
+    "Real insert retention, gasket compression and tool access require dry assembly.",
+    "Local supports and slicer-added footprints require slicer review.",
+    "Changed baffle and material require physical acoustic testing; printed prototype does not validate acrylic acoustics."
+  ],
+  "preview": "renders/exploded.png"
+}

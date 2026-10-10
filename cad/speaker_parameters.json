@@ -1,0 +1,12 @@
+{
+  "width": 220.0,
+  "height": 380.0,
+  "sheet_thickness": 10.0,
+  "target_net_litres": 16.1,
+  "gasket_compressed": 0.5,
+  "woofer_centre_z": 160.0,
+  "tweeter_centre_z": 324.1,
+  "port_centre_z": 55.0,
+  "port_bore": 50.0,
+  "port_length": 185.0
+}

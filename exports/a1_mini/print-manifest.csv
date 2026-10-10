@@ -1,0 +1,48 @@
+file,quantity,kind,size_x_mm,size_y_mm,size_z_mm,orientation,fits_A1
+front_11.stl,1,sheet,109.75,124.75,10.0,flat,True
+front_12.stl,1,sheet,109.75,144.5,10.0,flat,True
+front_13.stl,1,sheet,109.75,109.75,10.0,flat,True
+front_21.stl,1,sheet,109.75,124.75,10.0,flat,True
+front_22.stl,1,sheet,109.75,144.5,10.0,flat,True
+front_23.stl,1,sheet,109.75,109.75,10.0,flat,True
+rear_11.stl,1,sheet,109.75,124.75,10.0,flat,True
+rear_12.stl,1,sheet,109.75,154.5,10.0,flat,True
+rear_13.stl,1,sheet,109.75,99.75,10.0,flat,True
+rear_21.stl,1,sheet,109.75,124.75,10.0,flat,True
+rear_22.stl,1,sheet,109.75,154.5,10.0,flat,True
+rear_23.stl,1,sheet,109.75,99.75,10.0,flat,True
+left_11.stl,1,sheet,120.57608032226562,10.0,179.25,"upright, 10 mm edge on bed",True
+left_12.stl,1,sheet,120.57608032226562,10.0,179.25,"upright, 10 mm edge on bed",True
+left_21.stl,1,sheet,120.57608032226562,10.0,179.25,"upright, 10 mm edge on bed",True
+left_22.stl,1,sheet,120.57608032226562,10.0,179.25,"upright, 10 mm edge on bed",True
+right_11.stl,1,sheet,120.57608032226562,10.0,179.25,"upright, 10 mm edge on bed",True
+right_12.stl,1,sheet,120.57608032226562,10.0,179.25,"upright, 10 mm edge on bed",True
+right_21.stl,1,sheet,120.57608032226562,10.0,179.25,"upright, 10 mm edge on bed",True
+right_22.stl,1,sheet,120.57608032226562,10.0,179.25,"upright, 10 mm edge on bed",True
+bottom_11.stl,1,sheet,109.75,120.57608032226562,10.0,flat,True
+bottom_12.stl,1,sheet,109.75,120.57608032226562,10.0,flat,True
+bottom_21.stl,1,sheet,109.75,120.57608032226562,10.0,flat,True
+bottom_22.stl,1,sheet,109.75,120.57608032226562,10.0,flat,True
+top_11.stl,1,sheet,109.75,120.57608032226562,10.0,flat,True
+top_12.stl,1,sheet,109.75,120.57608032226562,10.0,flat,True
+top_21.stl,1,sheet,109.75,120.57608032226562,10.0,flat,True
+top_22.stl,1,sheet,109.75,120.57608032226562,10.0,flat,True
+brace_11.stl,1,sheet,99.25,120.07608032226562,10.0,flat,True
+brace_12.stl,1,sheet,99.25,120.07608032226562,10.0,flat,True
+brace_21.stl,1,sheet,99.25,120.07608032226562,10.0,flat,True
+brace_22.stl,1,sheet,99.25,120.07608032226562,10.0,flat,True
+rail_left_front_lower.stl,1,printed_fitting,139.6535949707031,139.65359497070312,18.0,supplied,True
+rail_left_front_upper.stl,1,printed_fitting,139.65359497070312,139.65359497070312,38.0,supplied,True
+rail_left_rear_lower.stl,1,printed_fitting,139.65359497070312,139.65359497070312,18.0,supplied,True
+rail_left_rear_upper.stl,1,printed_fitting,139.65359497070312,139.65359497070312,38.0,supplied,True
+rail_right_front_lower.stl,1,printed_fitting,139.65359497070312,139.65359497070312,18.0,supplied,True
+rail_right_front_upper.stl,1,printed_fitting,139.65359497070312,139.65359497070312,38.0,supplied,True
+rail_right_rear_lower.stl,1,printed_fitting,139.65359497070312,139.65359497070312,18.0,supplied,True
+rail_right_rear_upper.stl,1,printed_fitting,139.65359497070312,139.65359497070312,38.0,supplied,True
+tweeter_adapter.stl,1,printed_fitting,125.99989318847656,112.98756408691406,13.5,supplied,True
+woofer_adapter_lower.stl,1,printed_fitting,175.99989318847656,99.9000015258789,12.899999618530273,supplied,True
+woofer_adapter_upper.stl,1,printed_fitting,175.99989318847656,99.9000015258789,12.899999618530273,supplied,True
+port_inlet.stl,1,printed_fitting,71.98576354980469,72.0,84.75,supplied,True
+port_mouth.stl,1,printed_fitting,96.0,95.98101806640625,99.75,supplied,True
+splice_strip.stl,9,prototype_only,28.0,16.0,4.0,flat,True
+splice_cross.stl,6,prototype_only,28.0,28.0,4.0,flat,True

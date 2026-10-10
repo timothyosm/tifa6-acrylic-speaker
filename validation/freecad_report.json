@@ -1,0 +1,430 @@
+{
+  "all_pass": true,
+  "objects": [
+    {
+      "name": "unrestricted_front",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rear",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_left",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_right",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_bottom",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_top",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_brace",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rail_left_front_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rail_left_front_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rail_left_rear_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rail_left_rear_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rail_right_front_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rail_right_front_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rail_right_rear_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_rail_right_rear_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_tweeter_adapter",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_woofer_adapter_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_woofer_adapter_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_port_inlet",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "unrestricted_port_mouth",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_front_11",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_front_12",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_front_13",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_front_21",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_front_22",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_front_23",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rear_11",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rear_12",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rear_13",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rear_21",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rear_22",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rear_23",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_left_11",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_left_12",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_left_21",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_left_22",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_right_11",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_right_12",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_right_21",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_right_22",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_bottom_11",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_bottom_12",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_bottom_21",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_bottom_22",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_top_11",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_top_12",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_top_21",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_top_22",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_brace_11",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_brace_12",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_brace_21",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_brace_22",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rail_left_front_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rail_left_front_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rail_left_rear_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rail_left_rear_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rail_right_front_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rail_right_front_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rail_right_rear_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_rail_right_rear_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_tweeter_adapter",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_woofer_adapter_lower",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_woofer_adapter_upper",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_port_inlet",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_port_mouth",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_01_front_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_02_front_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_03_front_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_04_front_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_05_front_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_06_rear_cross",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_07_rear_cross",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_08_left_cross",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_09_right_cross",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_10_top_cross",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_11_bottom_cross",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_12_brace_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_13_brace_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_14_brace_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "a1_mini_splice_15_brace_strip",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "reference_woofer",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "reference_tweeter",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "reference_crossover",
+      "valid": true,
+      "STEP_volume_matches": true
+    },
+    {
+      "name": "reference_spacers",
+      "valid": true,
+      "STEP_volume_matches": true
+    }
+  ],
+  "version": [
+    "1",
+    "1",
+    "4"
+  ]
+}

@@ -1,0 +1,6085 @@
+{
+  "dimensions_mm": [
+    220.0,
+    262.6521600701435,
+    380.0
+  ],
+  "thickness_mm": 10,
+  "volume": {
+    "gross_cavity_and_driver_wells_litres": 17.606772490426753,
+    "printed_fittings_and_acrylic_brace_litres": 0.738963248978015,
+    "port_duct_air_litres": 0.33793896795552225,
+    "woofer_estimate_litres": 0.19210289297986963,
+    "tweeter_estimate_litres": 0.10373177002425864,
+    "crossover_material_estimate_litres": 0.12000000000000373,
+    "spacers_litres": 0.001535610489046201,
+    "wiring_allowance_litres": 0.002500000000026077,
+    "hardware_allowance_litres": 0.00999999999999255,
+    "nominal_net_litres": 16.10000000000002
+  },
+  "bolts": [
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -91,
+        -1.5,
+        30
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -91,
+        -1.5,
+        105
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -111.5,
+        21.5,
+        50
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -111.5,
+        21.5,
+        155
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_lower"
+    },
+    {
+      "label": "cap_to_rail",
+      "start": [
+        -96,
+        19.5,
+        -1.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -91,
+        -1.5,
+        225
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -91,
+        -1.5,
+        350
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -111.5,
+        21.5,
+        225
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -111.5,
+        21.5,
+        340
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_upper"
+    },
+    {
+      "label": "cap_to_rail",
+      "start": [
+        -96,
+        19.5,
+        381.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_upper"
+    },
+    {
+      "label": "brace_to_rail",
+      "start": [
+        -70,
+        24,
+        261.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "length": 16,
+      "receiver": "rail_left_front_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -91,
+        264.1521600701435,
+        30
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -91,
+        264.1521600701435,
+        105
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -111.5,
+        241.1521600701435,
+        50
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -111.5,
+        241.1521600701435,
+        155
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_lower"
+    },
+    {
+      "label": "cap_to_rail",
+      "start": [
+        -96,
+        243.1521600701435,
+        -1.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -91,
+        264.1521600701435,
+        225
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -91,
+        264.1521600701435,
+        350
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -111.5,
+        241.1521600701435,
+        225
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        -111.5,
+        241.1521600701435,
+        340
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_upper"
+    },
+    {
+      "label": "cap_to_rail",
+      "start": [
+        -96,
+        243.1521600701435,
+        381.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_upper"
+    },
+    {
+      "label": "brace_to_rail",
+      "start": [
+        -70,
+        238.6521600701435,
+        261.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "length": 16,
+      "receiver": "rail_left_rear_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        91,
+        -1.5,
+        30
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        91,
+        -1.5,
+        105
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        111.5,
+        21.5,
+        50
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        111.5,
+        21.5,
+        155
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_lower"
+    },
+    {
+      "label": "cap_to_rail",
+      "start": [
+        96,
+        19.5,
+        -1.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        91,
+        -1.5,
+        225
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        91,
+        -1.5,
+        350
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        111.5,
+        21.5,
+        225
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        111.5,
+        21.5,
+        340
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_upper"
+    },
+    {
+      "label": "cap_to_rail",
+      "start": [
+        96,
+        19.5,
+        381.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_upper"
+    },
+    {
+      "label": "brace_to_rail",
+      "start": [
+        70,
+        24,
+        261.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "length": 16,
+      "receiver": "rail_right_front_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        91,
+        264.1521600701435,
+        30
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        91,
+        264.1521600701435,
+        105
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        111.5,
+        241.1521600701435,
+        50
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        111.5,
+        241.1521600701435,
+        155
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_lower"
+    },
+    {
+      "label": "cap_to_rail",
+      "start": [
+        96,
+        243.1521600701435,
+        -1.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_lower"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        91,
+        264.1521600701435,
+        225
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        91,
+        264.1521600701435,
+        350
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        111.5,
+        241.1521600701435,
+        225
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_upper"
+    },
+    {
+      "label": "panel_to_rail",
+      "start": [
+        111.5,
+        241.1521600701435,
+        340
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_upper"
+    },
+    {
+      "label": "cap_to_rail",
+      "start": [
+        96,
+        243.1521600701435,
+        381.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_upper"
+    },
+    {
+      "label": "brace_to_rail",
+      "start": [
+        70,
+        238.6521600701435,
+        261.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "length": 16,
+      "receiver": "rail_right_rear_upper"
+    },
+    {
+      "label": "woofer_driver",
+      "start": [
+        58.33630944789017,
+        -0.5,
+        218.33630944789016
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 10,
+      "receiver": "woofer_adapter_upper"
+    },
+    {
+      "label": "woofer_adapter_to_panel",
+      "start": [
+        67.88225099390857,
+        -1.5,
+        227.88225099390854
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "woofer_adapter_upper"
+    },
+    {
+      "label": "woofer_driver",
+      "start": [
+        -58.336309447890166,
+        -0.5,
+        218.3363094478902
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 10,
+      "receiver": "woofer_adapter_upper"
+    },
+    {
+      "label": "woofer_adapter_to_panel",
+      "start": [
+        -67.88225099390856,
+        -1.5,
+        227.88225099390857
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "woofer_adapter_upper"
+    },
+    {
+      "label": "woofer_driver",
+      "start": [
+        -58.33630944789019,
+        -0.5,
+        101.66369055210984
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 10,
+      "receiver": "woofer_adapter_lower"
+    },
+    {
+      "label": "woofer_adapter_to_panel",
+      "start": [
+        -67.88225099390857,
+        -1.5,
+        92.11774900609144
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "woofer_adapter_lower"
+    },
+    {
+      "label": "woofer_driver",
+      "start": [
+        58.33630944789016,
+        -0.5,
+        101.66369055210981
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 10,
+      "receiver": "woofer_adapter_lower"
+    },
+    {
+      "label": "woofer_adapter_to_panel",
+      "start": [
+        67.88225099390854,
+        -1.5,
+        92.11774900609143
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "woofer_adapter_lower"
+    },
+    {
+      "label": "tweeter_driver",
+      "start": [
+        31.28947506750473,
+        -1,
+        355.38947506750475
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 10,
+      "receiver": "tweeter_adapter"
+    },
+    {
+      "label": "tweeter_adapter_to_panel",
+      "start": [
+        41.01219330881976,
+        -1.5,
+        365.11219330881977
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "tweeter_adapter"
+    },
+    {
+      "label": "tweeter_driver",
+      "start": [
+        -31.289475067504725,
+        -1,
+        355.38947506750475
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 10,
+      "receiver": "tweeter_adapter"
+    },
+    {
+      "label": "tweeter_adapter_to_panel",
+      "start": [
+        -41.012193308819754,
+        -1.5,
+        365.11219330881977
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "tweeter_adapter"
+    },
+    {
+      "label": "tweeter_driver",
+      "start": [
+        -31.289475067504736,
+        -1,
+        292.8105249324953
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 10,
+      "receiver": "tweeter_adapter"
+    },
+    {
+      "label": "tweeter_adapter_to_panel",
+      "start": [
+        -41.01219330881977,
+        -1.5,
+        283.0878066911803
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "tweeter_adapter"
+    },
+    {
+      "label": "tweeter_driver",
+      "start": [
+        31.28947506750472,
+        -1,
+        292.8105249324953
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 10,
+      "receiver": "tweeter_adapter"
+    },
+    {
+      "label": "tweeter_adapter_to_panel",
+      "start": [
+        41.01219330881975,
+        -1.5,
+        283.0878066911803
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": "tweeter_adapter"
+    },
+    {
+      "label": "port_flange_nut",
+      "start": [
+        31.112698372208094,
+        267.6521600701435,
+        86.11269837220809
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "port_flange_nut",
+      "start": [
+        -31.112698372208087,
+        267.6521600701435,
+        86.11269837220809
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "port_flange_nut",
+      "start": [
+        -31.112698372208097,
+        267.6521600701435,
+        23.887301627791913
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "port_flange_nut",
+      "start": [
+        31.112698372208083,
+        267.6521600701435,
+        23.887301627791903
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "port_coupling_nut",
+      "start": [
+        -32,
+        160.4021600701435,
+        55.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": null
+    },
+    {
+      "label": "port_coupling_nut",
+      "start": [
+        32,
+        160.4021600701435,
+        55.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 16,
+      "receiver": null
+    },
+    {
+      "label": "crossover_spacer_rear",
+      "start": [
+        -50,
+        264.1521600701435,
+        110
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": null
+    },
+    {
+      "label": "crossover_board",
+      "start": [
+        -50,
+        230.6521600701435,
+        110
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 6,
+      "receiver": null
+    },
+    {
+      "label": "crossover_spacer_rear",
+      "start": [
+        -50,
+        264.1521600701435,
+        180
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": null
+    },
+    {
+      "label": "crossover_board",
+      "start": [
+        -50,
+        230.6521600701435,
+        180
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 6,
+      "receiver": null
+    },
+    {
+      "label": "crossover_spacer_rear",
+      "start": [
+        50,
+        264.1521600701435,
+        110
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": null
+    },
+    {
+      "label": "crossover_board",
+      "start": [
+        50,
+        230.6521600701435,
+        110
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 6,
+      "receiver": null
+    },
+    {
+      "label": "crossover_spacer_rear",
+      "start": [
+        50,
+        264.1521600701435,
+        180
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "length": 16,
+      "receiver": null
+    },
+    {
+      "label": "crossover_board",
+      "start": [
+        50,
+        230.6521600701435,
+        180
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "length": 6,
+      "receiver": null
+    }
+  ],
+  "inserts": [
+    {
+      "part": "rail_left_front_lower",
+      "entry": [
+        -91,
+        10.5,
+        30
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_lower",
+      "entry": [
+        -91,
+        10.5,
+        105
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_lower",
+      "entry": [
+        -100,
+        21.5,
+        50
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_lower",
+      "entry": [
+        -100,
+        21.5,
+        155
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_lower",
+      "entry": [
+        -96,
+        19.5,
+        10.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_upper",
+      "entry": [
+        -91,
+        10.5,
+        225
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_upper",
+      "entry": [
+        -91,
+        10.5,
+        350
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_upper",
+      "entry": [
+        -100,
+        21.5,
+        225
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_upper",
+      "entry": [
+        -100,
+        21.5,
+        340
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_upper",
+      "entry": [
+        -96,
+        19.5,
+        369.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_upper",
+      "entry": [
+        -70,
+        24,
+        250
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_lower",
+      "entry": [
+        -91,
+        252.1521600701435,
+        30
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_lower",
+      "entry": [
+        -91,
+        252.1521600701435,
+        105
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_lower",
+      "entry": [
+        -100,
+        241.1521600701435,
+        50
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_lower",
+      "entry": [
+        -100,
+        241.1521600701435,
+        155
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_lower",
+      "entry": [
+        -96,
+        243.1521600701435,
+        10.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_upper",
+      "entry": [
+        -91,
+        252.1521600701435,
+        225
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_upper",
+      "entry": [
+        -91,
+        252.1521600701435,
+        350
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_upper",
+      "entry": [
+        -100,
+        241.1521600701435,
+        225
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_upper",
+      "entry": [
+        -100,
+        241.1521600701435,
+        340
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_upper",
+      "entry": [
+        -96,
+        243.1521600701435,
+        369.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_rear_upper",
+      "entry": [
+        -70,
+        238.6521600701435,
+        250
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_lower",
+      "entry": [
+        91,
+        10.5,
+        30
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_lower",
+      "entry": [
+        91,
+        10.5,
+        105
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_lower",
+      "entry": [
+        100,
+        21.5,
+        50
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_lower",
+      "entry": [
+        100,
+        21.5,
+        155
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_lower",
+      "entry": [
+        96,
+        19.5,
+        10.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_upper",
+      "entry": [
+        91,
+        10.5,
+        225
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_upper",
+      "entry": [
+        91,
+        10.5,
+        350
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_upper",
+      "entry": [
+        100,
+        21.5,
+        225
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_upper",
+      "entry": [
+        100,
+        21.5,
+        340
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_upper",
+      "entry": [
+        96,
+        19.5,
+        369.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_upper",
+      "entry": [
+        70,
+        24,
+        250
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_lower",
+      "entry": [
+        91,
+        252.1521600701435,
+        30
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_lower",
+      "entry": [
+        91,
+        252.1521600701435,
+        105
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_lower",
+      "entry": [
+        100,
+        241.1521600701435,
+        50
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_lower",
+      "entry": [
+        100,
+        241.1521600701435,
+        155
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_lower",
+      "entry": [
+        96,
+        243.1521600701435,
+        10.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_upper",
+      "entry": [
+        91,
+        252.1521600701435,
+        225
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_upper",
+      "entry": [
+        91,
+        252.1521600701435,
+        350
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_upper",
+      "entry": [
+        100,
+        241.1521600701435,
+        225
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_upper",
+      "entry": [
+        100,
+        241.1521600701435,
+        340
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_upper",
+      "entry": [
+        96,
+        243.1521600701435,
+        369.5
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_rear_upper",
+      "entry": [
+        70,
+        238.6521600701435,
+        250
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "woofer_adapter_upper",
+      "entry": [
+        58.33630944789017,
+        3.6,
+        218.33630944789016
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 7,
+      "length": 4
+    },
+    {
+      "part": "woofer_adapter_upper",
+      "entry": [
+        67.88225099390857,
+        10.5,
+        227.88225099390854
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "woofer_adapter_upper",
+      "entry": [
+        -58.336309447890166,
+        3.6,
+        218.3363094478902
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 7,
+      "length": 4
+    },
+    {
+      "part": "woofer_adapter_upper",
+      "entry": [
+        -67.88225099390856,
+        10.5,
+        227.88225099390857
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "woofer_adapter_lower",
+      "entry": [
+        -58.33630944789019,
+        3.6,
+        101.66369055210984
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 7,
+      "length": 4
+    },
+    {
+      "part": "woofer_adapter_lower",
+      "entry": [
+        -67.88225099390857,
+        10.5,
+        92.11774900609144
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "woofer_adapter_lower",
+      "entry": [
+        58.33630944789016,
+        3.6,
+        101.66369055210981
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 7,
+      "length": 4
+    },
+    {
+      "part": "woofer_adapter_lower",
+      "entry": [
+        67.88225099390854,
+        10.5,
+        92.11774900609143
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "tweeter_adapter",
+      "entry": [
+        31.28947506750473,
+        3,
+        355.38947506750475
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 7,
+      "length": 4
+    },
+    {
+      "part": "tweeter_adapter",
+      "entry": [
+        41.01219330881976,
+        10.5,
+        365.11219330881977
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "tweeter_adapter",
+      "entry": [
+        -31.289475067504725,
+        3,
+        355.38947506750475
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 7,
+      "length": 4
+    },
+    {
+      "part": "tweeter_adapter",
+      "entry": [
+        -41.012193308819754,
+        10.5,
+        365.11219330881977
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "tweeter_adapter",
+      "entry": [
+        -31.289475067504736,
+        3,
+        292.8105249324953
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 7,
+      "length": 4
+    },
+    {
+      "part": "tweeter_adapter",
+      "entry": [
+        -41.01219330881977,
+        10.5,
+        283.0878066911803
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "tweeter_adapter",
+      "entry": [
+        31.28947506750472,
+        3,
+        292.8105249324953
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 7,
+      "length": 4
+    },
+    {
+      "part": "tweeter_adapter",
+      "entry": [
+        41.01219330881975,
+        10.5,
+        283.0878066911803
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    }
+  ],
+  "driver_holes": {
+    "woofer": [
+      [
+        58.33630944789017,
+        218.33630944789016
+      ],
+      [
+        -58.336309447890166,
+        218.3363094478902
+      ],
+      [
+        -58.33630944789019,
+        101.66369055210984
+      ],
+      [
+        58.33630944789016,
+        101.66369055210981
+      ]
+    ],
+    "tweeter": [
+      [
+        31.28947506750473,
+        355.38947506750475
+      ],
+      [
+        -31.289475067504725,
+        355.38947506750475
+      ],
+      [
+        -31.289475067504736,
+        292.8105249324953
+      ],
+      [
+        31.28947506750472,
+        292.8105249324953
+      ]
+    ]
+  },
+  "adapter_mounts": {
+    "woofer": [
+      [
+        67.88225099390857,
+        227.88225099390854
+      ],
+      [
+        -67.88225099390856,
+        227.88225099390857
+      ],
+      [
+        -67.88225099390857,
+        92.11774900609144
+      ],
+      [
+        67.88225099390854,
+        92.11774900609143
+      ]
+    ],
+    "tweeter": [
+      [
+        41.01219330881976,
+        365.11219330881977
+      ],
+      [
+        -41.012193308819754,
+        365.11219330881977
+      ],
+      [
+        -41.01219330881977,
+        283.0878066911803
+      ],
+      [
+        41.01219330881975,
+        283.0878066911803
+      ]
+    ]
+  },
+  "port_mouth_y": 266.1521600701435,
+  "port_joint_y": 166.1521600701435,
+  "port_inlet_to_front_wall_mm": 71.15216007014351,
+  "port_inlet_edge_to_floor_mm": 20.0,
+  "gasket_mm": 0.5,
+  "variants": {
+    "unrestricted": {
+      "parts": [
+        {
+          "file": "front.stl",
+          "size_mm": [
+            220.0,
+            380.0,
+            10.0
+          ],
+          "solid_cm3": 507.2794526916327,
+          "manifold": true,
+          "fits_A1": false,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rear.stl",
+          "size_mm": [
+            220.0,
+            380.0,
+            10.0
+          ],
+          "solid_cm3": 790.5961321739941,
+          "manifold": true,
+          "fits_A1": false,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "left.stl",
+          "size_mm": [
+            241.65216064453125,
+            359.0,
+            10.0
+          ],
+          "solid_cm3": 866.2589096271116,
+          "manifold": true,
+          "fits_A1": false,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "right.stl",
+          "size_mm": [
+            241.65216064453125,
+            359.0,
+            10.0
+          ],
+          "solid_cm3": 866.2589096271116,
+          "manifold": true,
+          "fits_A1": false,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "bottom.stl",
+          "size_mm": [
+            220.0,
+            241.65216064453125,
+            10.0
+          ],
+          "solid_cm3": 530.9985796419639,
+          "manifold": true,
+          "fits_A1": false,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "top.stl",
+          "size_mm": [
+            220.0,
+            241.65216064453125,
+            10.0
+          ],
+          "solid_cm3": 530.9985796419639,
+          "manifold": true,
+          "fits_A1": false,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "brace.stl",
+          "size_mm": [
+            199.0,
+            240.65216064453125,
+            10.0
+          ],
+          "solid_cm3": 208.19512352973436,
+          "manifold": true,
+          "fits_A1": false,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rail_left_front_lower.stl",
+          "size_mm": [
+            139.6535949707031,
+            139.65359497070312,
+            18.0
+          ],
+          "solid_cm3": 39.86163940994172,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_left_front_upper.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            38.0
+          ],
+          "solid_cm3": 42.04236729193005,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_left_rear_lower.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            18.0
+          ],
+          "solid_cm3": 39.861639409941716,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_left_rear_upper.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            38.0
+          ],
+          "solid_cm3": 42.042367291930056,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_right_front_lower.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            18.0
+          ],
+          "solid_cm3": 39.861639409941716,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_right_front_upper.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            38.0
+          ],
+          "solid_cm3": 42.04236729193009,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_right_rear_lower.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            18.0
+          ],
+          "solid_cm3": 39.8616394099417,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_right_rear_upper.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            38.0
+          ],
+          "solid_cm3": 42.042367291930056,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "tweeter_adapter.stl",
+          "size_mm": [
+            125.99989318847656,
+            112.98756408691406,
+            13.5
+          ],
+          "solid_cm3": 68.25407173799387,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "woofer_adapter_lower.stl",
+          "size_mm": [
+            175.99989318847656,
+            99.9000015258789,
+            12.899999618530273
+          ],
+          "solid_cm3": 62.04886781355053,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "woofer_adapter_upper.stl",
+          "size_mm": [
+            175.99989318847656,
+            99.9000015258789,
+            12.899999618530273
+          ],
+          "solid_cm3": 62.048867813550515,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "port_inlet.stl",
+          "size_mm": [
+            71.98576354980469,
+            72.0,
+            84.75
+          ],
+          "solid_cm3": 34.7424961649311,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "port_mouth.stl",
+          "size_mm": [
+            96.0,
+            95.98101806640625,
+            99.75
+          ],
+          "solid_cm3": 81.15065143501532,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        }
+      ],
+      "assembly_parts": [
+        "front",
+        "rear",
+        "left",
+        "right",
+        "bottom",
+        "top",
+        "brace",
+        "rail_left_front_lower",
+        "rail_left_front_upper",
+        "rail_left_rear_lower",
+        "rail_left_rear_upper",
+        "rail_right_front_lower",
+        "rail_right_front_upper",
+        "rail_right_rear_lower",
+        "rail_right_rear_upper",
+        "tweeter_adapter",
+        "woofer_adapter_lower",
+        "woofer_adapter_upper",
+        "port_inlet",
+        "port_mouth"
+      ],
+      "physical_piece_count": 20,
+      "sheet_pieces": 7,
+      "nominal_net_litres": 16.10000000000002
+    },
+    "a1_mini": {
+      "parts": [
+        {
+          "file": "front_11.stl",
+          "size_mm": [
+            109.75,
+            124.75,
+            10.0
+          ],
+          "solid_cm3": 105.08723549417647,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "front_12.stl",
+          "size_mm": [
+            109.75,
+            144.5,
+            10.0
+          ],
+          "solid_cm3": 66.80222966190107,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "front_13.stl",
+          "size_mm": [
+            109.75,
+            109.75,
+            10.0
+          ],
+          "solid_cm3": 80.0077181322043,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "front_21.stl",
+          "size_mm": [
+            109.75,
+            124.75,
+            10.0
+          ],
+          "solid_cm3": 105.08723549417647,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "front_22.stl",
+          "size_mm": [
+            109.75,
+            144.5,
+            10.0
+          ],
+          "solid_cm3": 66.80222966190107,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "front_23.stl",
+          "size_mm": [
+            109.75,
+            109.75,
+            10.0
+          ],
+          "solid_cm3": 80.00771813220429,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rear_11.stl",
+          "size_mm": [
+            109.75,
+            124.75,
+            10.0
+          ],
+          "solid_cm3": 115.21443074079637,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rear_12.stl",
+          "size_mm": [
+            109.75,
+            154.5,
+            10.0
+          ],
+          "solid_cm3": 168.4249226630737,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rear_13.stl",
+          "size_mm": [
+            109.75,
+            99.75,
+            10.0
+          ],
+          "solid_cm3": 109.15753874382402,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rear_21.stl",
+          "size_mm": [
+            109.75,
+            124.75,
+            10.0
+          ],
+          "solid_cm3": 115.21443074079637,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rear_22.stl",
+          "size_mm": [
+            109.75,
+            154.5,
+            10.0
+          ],
+          "solid_cm3": 168.4249226630737,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rear_23.stl",
+          "size_mm": [
+            109.75,
+            99.75,
+            10.0
+          ],
+          "solid_cm3": 109.15753874382403,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "left_11.stl",
+          "size_mm": [
+            120.57608032226562,
+            10.0,
+            179.25
+          ],
+          "solid_cm3": 215.65549407860215,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "upright, 10 mm edge on bed"
+        },
+        {
+          "file": "left_12.stl",
+          "size_mm": [
+            120.57608032226562,
+            10.0,
+            179.25
+          ],
+          "solid_cm3": 215.65549407860217,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "upright, 10 mm edge on bed"
+        },
+        {
+          "file": "left_21.stl",
+          "size_mm": [
+            120.57608032226562,
+            10.0,
+            179.25
+          ],
+          "solid_cm3": 215.65549407860215,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "upright, 10 mm edge on bed"
+        },
+        {
+          "file": "left_22.stl",
+          "size_mm": [
+            120.57608032226562,
+            10.0,
+            179.25
+          ],
+          "solid_cm3": 215.6554940786022,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "upright, 10 mm edge on bed"
+        },
+        {
+          "file": "right_11.stl",
+          "size_mm": [
+            120.57608032226562,
+            10.0,
+            179.25
+          ],
+          "solid_cm3": 215.65549407860215,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "upright, 10 mm edge on bed"
+        },
+        {
+          "file": "right_12.stl",
+          "size_mm": [
+            120.57608032226562,
+            10.0,
+            179.25
+          ],
+          "solid_cm3": 215.65549407860217,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "upright, 10 mm edge on bed"
+        },
+        {
+          "file": "right_21.stl",
+          "size_mm": [
+            120.57608032226562,
+            10.0,
+            179.25
+          ],
+          "solid_cm3": 215.65549407860215,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "upright, 10 mm edge on bed"
+        },
+        {
+          "file": "right_22.stl",
+          "size_mm": [
+            120.57608032226562,
+            10.0,
+            179.25
+          ],
+          "solid_cm3": 215.6554940786022,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "upright, 10 mm edge on bed"
+        },
+        {
+          "file": "bottom_11.stl",
+          "size_mm": [
+            109.75,
+            120.57608032226562,
+            10.0
+          ],
+          "solid_cm3": 132.01416158231532,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "bottom_12.stl",
+          "size_mm": [
+            109.75,
+            120.57608032226562,
+            10.0
+          ],
+          "solid_cm3": 132.0141615823153,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "bottom_21.stl",
+          "size_mm": [
+            109.75,
+            120.57608032226562,
+            10.0
+          ],
+          "solid_cm3": 132.0141615823153,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "bottom_22.stl",
+          "size_mm": [
+            109.75,
+            120.57608032226562,
+            10.0
+          ],
+          "solid_cm3": 132.0141615823153,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "top_11.stl",
+          "size_mm": [
+            109.75,
+            120.57608032226562,
+            10.0
+          ],
+          "solid_cm3": 132.01416158231532,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "top_12.stl",
+          "size_mm": [
+            109.75,
+            120.57608032226562,
+            10.0
+          ],
+          "solid_cm3": 132.0141615823153,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "top_21.stl",
+          "size_mm": [
+            109.75,
+            120.57608032226562,
+            10.0
+          ],
+          "solid_cm3": 132.0141615823153,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "top_22.stl",
+          "size_mm": [
+            109.75,
+            120.57608032226562,
+            10.0
+          ],
+          "solid_cm3": 132.0141615823153,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "brace_11.stl",
+          "size_mm": [
+            99.25,
+            120.07608032226562,
+            10.0
+          ],
+          "solid_cm3": 50.09569462625757,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "brace_12.stl",
+          "size_mm": [
+            99.25,
+            120.07608032226562,
+            10.0
+          ],
+          "solid_cm3": 53.08069462625757,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "brace_21.stl",
+          "size_mm": [
+            99.25,
+            120.07608032226562,
+            10.0
+          ],
+          "solid_cm3": 50.09569462625757,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "brace_22.stl",
+          "size_mm": [
+            99.25,
+            120.07608032226562,
+            10.0
+          ],
+          "solid_cm3": 53.08069462625757,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "sheet",
+          "orientation": "flat"
+        },
+        {
+          "file": "rail_left_front_lower.stl",
+          "size_mm": [
+            139.6535949707031,
+            139.65359497070312,
+            18.0
+          ],
+          "solid_cm3": 39.723095173918416,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_left_front_upper.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            38.0
+          ],
+          "solid_cm3": 41.90382305590676,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_left_rear_lower.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            18.0
+          ],
+          "solid_cm3": 39.861639409941716,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_left_rear_upper.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            38.0
+          ],
+          "solid_cm3": 42.042367291930056,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_right_front_lower.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            18.0
+          ],
+          "solid_cm3": 39.72309517391841,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_right_front_upper.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            38.0
+          ],
+          "solid_cm3": 41.903823055906784,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_right_rear_lower.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            18.0
+          ],
+          "solid_cm3": 39.8616394099417,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "rail_right_rear_upper.stl",
+          "size_mm": [
+            139.65359497070312,
+            139.65359497070312,
+            38.0
+          ],
+          "solid_cm3": 42.042367291930056,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "tweeter_adapter.stl",
+          "size_mm": [
+            125.99989318847656,
+            112.98756408691406,
+            13.5
+          ],
+          "solid_cm3": 68.25407173799387,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "woofer_adapter_lower.stl",
+          "size_mm": [
+            175.99989318847656,
+            99.9000015258789,
+            12.899999618530273
+          ],
+          "solid_cm3": 62.04886781355053,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "woofer_adapter_upper.stl",
+          "size_mm": [
+            175.99989318847656,
+            99.9000015258789,
+            12.899999618530273
+          ],
+          "solid_cm3": 62.048867813550515,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "port_inlet.stl",
+          "size_mm": [
+            71.98576354980469,
+            72.0,
+            84.75
+          ],
+          "solid_cm3": 34.7424961649311,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "port_mouth.stl",
+          "size_mm": [
+            96.0,
+            95.98101806640625,
+            99.75
+          ],
+          "solid_cm3": 81.15065143501532,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 1,
+          "kind": "printed_fitting",
+          "orientation": "supplied"
+        },
+        {
+          "file": "splice_strip.stl",
+          "size_mm": [
+            28.0,
+            16.0,
+            4.0
+          ],
+          "solid_cm3": 1.7193663778490038,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 9,
+          "kind": "prototype_only",
+          "orientation": "flat"
+        },
+        {
+          "file": "splice_cross.stl",
+          "size_mm": [
+            28.0,
+            28.0,
+            4.0
+          ],
+          "solid_cm3": 2.9907327556980086,
+          "manifold": true,
+          "fits_A1": true,
+          "quantity": 6,
+          "kind": "prototype_only",
+          "orientation": "flat"
+        }
+      ],
+      "assembly_parts": [
+        "front_11",
+        "front_12",
+        "front_13",
+        "front_21",
+        "front_22",
+        "front_23",
+        "rear_11",
+        "rear_12",
+        "rear_13",
+        "rear_21",
+        "rear_22",
+        "rear_23",
+        "left_11",
+        "left_12",
+        "left_21",
+        "left_22",
+        "right_11",
+        "right_12",
+        "right_21",
+        "right_22",
+        "bottom_11",
+        "bottom_12",
+        "bottom_21",
+        "bottom_22",
+        "top_11",
+        "top_12",
+        "top_21",
+        "top_22",
+        "brace_11",
+        "brace_12",
+        "brace_21",
+        "brace_22",
+        "rail_left_front_lower",
+        "rail_left_front_upper",
+        "rail_left_rear_lower",
+        "rail_left_rear_upper",
+        "rail_right_front_lower",
+        "rail_right_front_upper",
+        "rail_right_rear_lower",
+        "rail_right_rear_upper",
+        "tweeter_adapter",
+        "woofer_adapter_lower",
+        "woofer_adapter_upper",
+        "port_inlet",
+        "port_mouth",
+        "splice_01_front_strip",
+        "splice_02_front_strip",
+        "splice_03_front_strip",
+        "splice_04_front_strip",
+        "splice_05_front_strip",
+        "splice_06_rear_cross",
+        "splice_07_rear_cross",
+        "splice_08_left_cross",
+        "splice_09_right_cross",
+        "splice_10_top_cross",
+        "splice_11_bottom_cross",
+        "splice_12_brace_strip",
+        "splice_13_brace_strip",
+        "splice_14_brace_strip",
+        "splice_15_brace_strip"
+      ],
+      "physical_piece_count": 60,
+      "sheet_pieces": 32,
+      "nominal_net_litres": 16.091519056457397
+    }
+  },
+  "panel_profiles": {
+    "front": {
+      "size": [
+        220.0,
+        380.0
+      ],
+      "origin": [
+        -110.0,
+        10.0,
+        0
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "exterior": 10,
+      "holes": [
+        {
+          "u": 19.0,
+          "v": 30.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 105.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 225.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 350.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 30.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 105.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 225.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 350.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 110.0,
+          "v": 160.0,
+          "diameter": 177,
+          "purpose": "woofer adapter opening"
+        },
+        {
+          "u": 177.88225099390857,
+          "v": 227.88225099390854,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 42.117749006091444,
+          "v": 227.88225099390857,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 42.11774900609143,
+          "v": 92.11774900609144,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 177.88225099390854,
+          "v": 92.11774900609143,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 110.0,
+          "v": 324.1,
+          "diameter": 101,
+          "purpose": "tweeter adapter opening"
+        },
+        {
+          "u": 151.01219330881975,
+          "v": 365.11219330881977,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 68.98780669118025,
+          "v": 365.11219330881977,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 68.98780669118023,
+          "v": 283.0878066911803,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 151.01219330881975,
+          "v": 283.0878066911803,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "rear": {
+      "size": [
+        220.0,
+        380.0
+      ],
+      "origin": [
+        -110.0,
+        262.6521600701435,
+        0
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "exterior": 0,
+      "holes": [
+        {
+          "u": 19.0,
+          "v": 30.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 105.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 225.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 350.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 30.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 105.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 225.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 350.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 110.0,
+          "v": 55.0,
+          "diameter": 73,
+          "purpose": "port spigot"
+        },
+        {
+          "u": 141.1126983722081,
+          "v": 86.11269837220809,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 78.88730162779191,
+          "v": 86.11269837220809,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 78.8873016277919,
+          "v": 23.887301627791913,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 141.1126983722081,
+          "v": 23.887301627791903,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 95.0,
+          "v": 225.0,
+          "diameter": 8,
+          "purpose": "binding post"
+        },
+        {
+          "u": 125.0,
+          "v": 225.0,
+          "diameter": 8,
+          "purpose": "binding post"
+        },
+        {
+          "u": 60.0,
+          "v": 110.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 60.0,
+          "v": 180.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 160.0,
+          "v": 110.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 160.0,
+          "v": 180.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "left": {
+      "size": [
+        241.6521600701435,
+        359.0
+      ],
+      "origin": [
+        -110.0,
+        10.5,
+        10.5
+      ],
+      "xdir": [
+        0,
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "exterior": 0,
+      "holes": [
+        {
+          "u": 11.0,
+          "v": 39.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 144.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 214.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 329.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 39.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 144.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 214.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 329.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "right": {
+      "size": [
+        241.6521600701435,
+        359.0
+      ],
+      "origin": [
+        100.0,
+        10.5,
+        10.5
+      ],
+      "xdir": [
+        0,
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "exterior": 10,
+      "holes": [
+        {
+          "u": 11.0,
+          "v": 39.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 144.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 214.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 329.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 39.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 144.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 214.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 329.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "bottom": {
+      "size": [
+        220.0,
+        241.6521600701435
+      ],
+      "origin": [
+        -110.0,
+        10.5,
+        0
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "exterior": 0,
+      "holes": [
+        {
+          "u": 14.0,
+          "v": 9.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 14.0,
+          "v": 232.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 206.0,
+          "v": 9.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 206.0,
+          "v": 232.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "top": {
+      "size": [
+        220.0,
+        241.6521600701435
+      ],
+      "origin": [
+        -110.0,
+        10.5,
+        370.0
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "exterior": 10,
+      "holes": [
+        {
+          "u": 14.0,
+          "v": 9.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 14.0,
+          "v": 232.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 206.0,
+          "v": 9.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 206.0,
+          "v": 232.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "brace": {
+      "size": [
+        199,
+        240.6521600701435
+      ],
+      "origin": [
+        -99.5,
+        11,
+        250
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "exterior": 10,
+      "holes": [
+        {
+          "u": 29.5,
+          "v": 13.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 29.5,
+          "v": 227.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 169.5,
+          "v": 13.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 169.5,
+          "v": 227.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        }
+      ],
+      "rect_cuts": [
+        [
+          30,
+          30,
+          139,
+          180.6521600701435
+        ],
+        [
+          -1,
+          -1,
+          19,
+          19
+        ],
+        [
+          -1,
+          222.6521600701435,
+          19,
+          19
+        ],
+        [
+          181,
+          -1,
+          19,
+          19
+        ],
+        [
+          181,
+          222.6521600701435,
+          19,
+          19
+        ],
+        [
+          49.5,
+          -1,
+          100,
+          7
+        ]
+      ]
+    }
+  },
+  "prototype_profiles": {
+    "front": {
+      "size": [
+        220.0,
+        380.0
+      ],
+      "origin": [
+        -110.0,
+        10.0,
+        0
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "exterior": 10,
+      "holes": [
+        {
+          "u": 19.0,
+          "v": 30.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 105.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 225.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 350.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 30.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 105.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 225.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 350.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 110.0,
+          "v": 160.0,
+          "diameter": 177,
+          "purpose": "woofer adapter opening"
+        },
+        {
+          "u": 177.88225099390857,
+          "v": 227.88225099390854,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 42.117749006091444,
+          "v": 227.88225099390857,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 42.11774900609143,
+          "v": 92.11774900609144,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 177.88225099390854,
+          "v": 92.11774900609143,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 110.0,
+          "v": 324.1,
+          "diameter": 101,
+          "purpose": "tweeter adapter opening"
+        },
+        {
+          "u": 151.01219330881975,
+          "v": 365.11219330881977,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 68.98780669118025,
+          "v": 365.11219330881977,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 68.98780669118023,
+          "v": 283.0878066911803,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 151.01219330881975,
+          "v": 283.0878066911803,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 14,
+          "v": 117,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 14,
+          "v": 133,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 14,
+          "v": 262,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 14,
+          "v": 278,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 206,
+          "v": 117,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 206,
+          "v": 133,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 206,
+          "v": 262,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 206,
+          "v": 278,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 102,
+          "v": 35,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118,
+          "v": 35,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "rear": {
+      "size": [
+        220.0,
+        380.0
+      ],
+      "origin": [
+        -110.0,
+        262.6521600701435,
+        0
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "exterior": 0,
+      "holes": [
+        {
+          "u": 19.0,
+          "v": 30.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 105.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 225.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 19.0,
+          "v": 350.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 30.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 105.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 225.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 201.0,
+          "v": 350.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 110.0,
+          "v": 55.0,
+          "diameter": 73,
+          "purpose": "port spigot"
+        },
+        {
+          "u": 141.1126983722081,
+          "v": 86.11269837220809,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 78.88730162779191,
+          "v": 86.11269837220809,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 78.8873016277919,
+          "v": 23.887301627791913,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 141.1126983722081,
+          "v": 23.887301627791903,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 95.0,
+          "v": 225.0,
+          "diameter": 8,
+          "purpose": "binding post"
+        },
+        {
+          "u": 125.0,
+          "v": 225.0,
+          "diameter": 8,
+          "purpose": "binding post"
+        },
+        {
+          "u": 60.0,
+          "v": 110.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 60.0,
+          "v": 180.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 160.0,
+          "v": 110.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 160.0,
+          "v": 180.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 102,
+          "v": 117,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 102,
+          "v": 133,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118,
+          "v": 117,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118,
+          "v": 133,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 102,
+          "v": 272,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 102,
+          "v": 288,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118,
+          "v": 272,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118,
+          "v": 288,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "left": {
+      "size": [
+        241.6521600701435,
+        359.0
+      ],
+      "origin": [
+        -110.0,
+        10.5,
+        10.5
+      ],
+      "xdir": [
+        0,
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "exterior": 0,
+      "holes": [
+        {
+          "u": 11.0,
+          "v": 39.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 144.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 214.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 329.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 39.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 144.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 214.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 329.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 112.82608003507175,
+          "v": 171.5,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 112.82608003507175,
+          "v": 187.5,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 128.82608003507175,
+          "v": 171.5,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 128.82608003507175,
+          "v": 187.5,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "right": {
+      "size": [
+        241.6521600701435,
+        359.0
+      ],
+      "origin": [
+        100.0,
+        10.5,
+        10.5
+      ],
+      "xdir": [
+        0,
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "exterior": 10,
+      "holes": [
+        {
+          "u": 11.0,
+          "v": 39.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 144.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 214.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 11.0,
+          "v": 329.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 39.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 144.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 214.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 230.6521600701435,
+          "v": 329.5,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 112.82608003507175,
+          "v": 171.5,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 112.82608003507175,
+          "v": 187.5,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 128.82608003507175,
+          "v": 171.5,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 128.82608003507175,
+          "v": 187.5,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "bottom": {
+      "size": [
+        220.0,
+        241.6521600701435
+      ],
+      "origin": [
+        -110.0,
+        10.5,
+        0
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "exterior": 0,
+      "holes": [
+        {
+          "u": 14.0,
+          "v": 9.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 14.0,
+          "v": 232.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 206.0,
+          "v": 9.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 206.0,
+          "v": 232.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 102.0,
+          "v": 112.82608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 102.0,
+          "v": 128.82608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118.0,
+          "v": 112.82608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118.0,
+          "v": 128.82608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "top": {
+      "size": [
+        220.0,
+        241.6521600701435
+      ],
+      "origin": [
+        -110.0,
+        10.5,
+        370.0
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "exterior": 10,
+      "holes": [
+        {
+          "u": 14.0,
+          "v": 9.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 14.0,
+          "v": 232.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 206.0,
+          "v": 9.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 206.0,
+          "v": 232.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 102.0,
+          "v": 112.82608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 102.0,
+          "v": 128.82608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118.0,
+          "v": 112.82608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 118.0,
+          "v": 128.82608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        }
+      ],
+      "rect_cuts": []
+    },
+    "brace": {
+      "size": [
+        199,
+        240.6521600701435
+      ],
+      "origin": [
+        -99.5,
+        11,
+        250
+      ],
+      "xdir": [
+        1,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "exterior": 10,
+      "holes": [
+        {
+          "u": 29.5,
+          "v": 13.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 29.5,
+          "v": 227.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 169.5,
+          "v": 13.0,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 169.5,
+          "v": 227.6521600701435,
+          "diameter": 4.5,
+          "purpose": "M3 fixing"
+        },
+        {
+          "u": 91.5,
+          "v": 18,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 107.5,
+          "v": 18,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 91.5,
+          "v": 222.6521600701435,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 107.5,
+          "v": 222.6521600701435,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 15,
+          "v": 112.32608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 15,
+          "v": 128.32608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 184,
+          "v": 112.32608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        },
+        {
+          "u": 184,
+          "v": 128.32608003507175,
+          "diameter": 4.5,
+          "purpose": "PROTOTYPE ONLY splice"
+        }
+      ],
+      "rect_cuts": [
+        [
+          30,
+          30,
+          139,
+          180.6521600701435
+        ],
+        [
+          -1,
+          -1,
+          19,
+          19
+        ],
+        [
+          -1,
+          222.6521600701435,
+          19,
+          19
+        ],
+        [
+          181,
+          -1,
+          19,
+          19
+        ],
+        [
+          181,
+          222.6521600701435,
+          19,
+          19
+        ],
+        [
+          49.5,
+          -1,
+          100,
+          7
+        ]
+      ]
+    }
+  },
+  "prototype_tiles": {
+    "front_11": {
+      "parent": "front",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        109.75,
+        124.75
+      ]
+    },
+    "front_12": {
+      "parent": "front",
+      "offset": [
+        0,
+        125.25
+      ],
+      "size": [
+        109.75,
+        144.5
+      ]
+    },
+    "front_13": {
+      "parent": "front",
+      "offset": [
+        0,
+        270.25
+      ],
+      "size": [
+        109.75,
+        109.75
+      ]
+    },
+    "front_21": {
+      "parent": "front",
+      "offset": [
+        110.25,
+        0
+      ],
+      "size": [
+        109.75,
+        124.75
+      ]
+    },
+    "front_22": {
+      "parent": "front",
+      "offset": [
+        110.25,
+        125.25
+      ],
+      "size": [
+        109.75,
+        144.5
+      ]
+    },
+    "front_23": {
+      "parent": "front",
+      "offset": [
+        110.25,
+        270.25
+      ],
+      "size": [
+        109.75,
+        109.75
+      ]
+    },
+    "rear_11": {
+      "parent": "rear",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        109.75,
+        124.75
+      ]
+    },
+    "rear_12": {
+      "parent": "rear",
+      "offset": [
+        0,
+        125.25
+      ],
+      "size": [
+        109.75,
+        154.5
+      ]
+    },
+    "rear_13": {
+      "parent": "rear",
+      "offset": [
+        0,
+        280.25
+      ],
+      "size": [
+        109.75,
+        99.75
+      ]
+    },
+    "rear_21": {
+      "parent": "rear",
+      "offset": [
+        110.25,
+        0
+      ],
+      "size": [
+        109.75,
+        124.75
+      ]
+    },
+    "rear_22": {
+      "parent": "rear",
+      "offset": [
+        110.25,
+        125.25
+      ],
+      "size": [
+        109.75,
+        154.5
+      ]
+    },
+    "rear_23": {
+      "parent": "rear",
+      "offset": [
+        110.25,
+        280.25
+      ],
+      "size": [
+        109.75,
+        99.75
+      ]
+    },
+    "left_11": {
+      "parent": "left",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        120.57608003507175,
+        179.25
+      ]
+    },
+    "left_12": {
+      "parent": "left",
+      "offset": [
+        0,
+        179.75
+      ],
+      "size": [
+        120.57608003507175,
+        179.25
+      ]
+    },
+    "left_21": {
+      "parent": "left",
+      "offset": [
+        121.07608003507175,
+        0
+      ],
+      "size": [
+        120.57608003507175,
+        179.25
+      ]
+    },
+    "left_22": {
+      "parent": "left",
+      "offset": [
+        121.07608003507175,
+        179.75
+      ],
+      "size": [
+        120.57608003507175,
+        179.25
+      ]
+    },
+    "right_11": {
+      "parent": "right",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        120.57608003507175,
+        179.25
+      ]
+    },
+    "right_12": {
+      "parent": "right",
+      "offset": [
+        0,
+        179.75
+      ],
+      "size": [
+        120.57608003507175,
+        179.25
+      ]
+    },
+    "right_21": {
+      "parent": "right",
+      "offset": [
+        121.07608003507175,
+        0
+      ],
+      "size": [
+        120.57608003507175,
+        179.25
+      ]
+    },
+    "right_22": {
+      "parent": "right",
+      "offset": [
+        121.07608003507175,
+        179.75
+      ],
+      "size": [
+        120.57608003507175,
+        179.25
+      ]
+    },
+    "bottom_11": {
+      "parent": "bottom",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        109.75,
+        120.57608003507175
+      ]
+    },
+    "bottom_12": {
+      "parent": "bottom",
+      "offset": [
+        0,
+        121.07608003507175
+      ],
+      "size": [
+        109.75,
+        120.57608003507175
+      ]
+    },
+    "bottom_21": {
+      "parent": "bottom",
+      "offset": [
+        110.25,
+        0
+      ],
+      "size": [
+        109.75,
+        120.57608003507175
+      ]
+    },
+    "bottom_22": {
+      "parent": "bottom",
+      "offset": [
+        110.25,
+        121.07608003507175
+      ],
+      "size": [
+        109.75,
+        120.57608003507175
+      ]
+    },
+    "top_11": {
+      "parent": "top",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        109.75,
+        120.57608003507175
+      ]
+    },
+    "top_12": {
+      "parent": "top",
+      "offset": [
+        0,
+        121.07608003507175
+      ],
+      "size": [
+        109.75,
+        120.57608003507175
+      ]
+    },
+    "top_21": {
+      "parent": "top",
+      "offset": [
+        110.25,
+        0
+      ],
+      "size": [
+        109.75,
+        120.57608003507175
+      ]
+    },
+    "top_22": {
+      "parent": "top",
+      "offset": [
+        110.25,
+        121.07608003507175
+      ],
+      "size": [
+        109.75,
+        120.57608003507175
+      ]
+    },
+    "brace_11": {
+      "parent": "brace",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        99.25,
+        120.07608003507175
+      ]
+    },
+    "brace_12": {
+      "parent": "brace",
+      "offset": [
+        0,
+        120.57608003507175
+      ],
+      "size": [
+        99.25,
+        120.07608003507175
+      ]
+    },
+    "brace_21": {
+      "parent": "brace",
+      "offset": [
+        99.75,
+        0
+      ],
+      "size": [
+        99.25,
+        120.07608003507175
+      ]
+    },
+    "brace_22": {
+      "parent": "brace",
+      "offset": [
+        99.75,
+        120.57608003507175
+      ],
+      "size": [
+        99.25,
+        120.07608003507175
+      ]
+    }
+  },
+  "prototype_cuts": {
+    "front": [
+      [
+        0,
+        110,
+        220
+      ],
+      [
+        0,
+        125,
+        270,
+        380
+      ]
+    ],
+    "rear": [
+      [
+        0,
+        110,
+        220
+      ],
+      [
+        0,
+        125,
+        280,
+        380
+      ]
+    ],
+    "left": [
+      [
+        0,
+        120.82608003507175,
+        241.6521600701435
+      ],
+      [
+        0,
+        179.5,
+        359
+      ]
+    ],
+    "right": [
+      [
+        0,
+        120.82608003507175,
+        241.6521600701435
+      ],
+      [
+        0,
+        179.5,
+        359
+      ]
+    ],
+    "top": [
+      [
+        0,
+        110.0,
+        220.0
+      ],
+      [
+        0,
+        120.82608003507175,
+        241.6521600701435
+      ]
+    ],
+    "bottom": [
+      [
+        0,
+        110.0,
+        220.0
+      ],
+      [
+        0,
+        120.82608003507175,
+        241.6521600701435
+      ]
+    ],
+    "brace": [
+      [
+        0,
+        99.5,
+        199
+      ],
+      [
+        0,
+        120.32608003507175,
+        240.6521600701435
+      ]
+    ]
+  },
+  "prototype_bolts": [
+    {
+      "label": "prototype_splice",
+      "start": [
+        -96.0,
+        -5.5,
+        117.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": "rail_left_front_lower"
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -96.0,
+        -5.5,
+        133.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": "rail_left_front_lower"
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -96.0,
+        -5.5,
+        262.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": "rail_left_front_upper"
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -96.0,
+        -5.5,
+        278.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": "rail_left_front_upper"
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        96.0,
+        -5.5,
+        117.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": "rail_right_front_lower"
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        96.0,
+        -5.5,
+        133.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": "rail_right_front_lower"
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        96.0,
+        -5.5,
+        262.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": "rail_right_front_upper"
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        96.0,
+        -5.5,
+        278.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": "rail_right_front_upper"
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        -5.5,
+        35.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        -5.5,
+        35.0
+      ],
+      "axis": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        268.1521600701435,
+        117.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        268.1521600701435,
+        133.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        268.1521600701435,
+        117.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        268.1521600701435,
+        133.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        268.1521600701435,
+        272.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        268.1521600701435,
+        288.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        268.1521600701435,
+        272.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        268.1521600701435,
+        288.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -115.5,
+        123.32608003507175,
+        182.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -115.5,
+        123.32608003507175,
+        198.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -115.5,
+        139.32608003507175,
+        182.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -115.5,
+        139.32608003507175,
+        198.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        115.5,
+        123.32608003507175,
+        182.0
+      ],
+      "axis": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        115.5,
+        123.32608003507175,
+        198.0
+      ],
+      "axis": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        115.5,
+        139.32608003507175,
+        182.0
+      ],
+      "axis": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        115.5,
+        139.32608003507175,
+        198.0
+      ],
+      "axis": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        123.32608003507175,
+        385.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        139.32608003507175,
+        385.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        123.32608003507175,
+        385.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        139.32608003507175,
+        385.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        123.32608003507175,
+        -5.5
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        139.32608003507175,
+        -5.5
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        123.32608003507175,
+        -5.5
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        139.32608003507175,
+        -5.5
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        29.0,
+        265.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        29.0,
+        265.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -8.0,
+        233.6521600701435,
+        265.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        8.0,
+        233.6521600701435,
+        265.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -84.5,
+        123.32608003507175,
+        265.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        -84.5,
+        139.32608003507175,
+        265.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        84.5,
+        123.32608003507175,
+        265.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    },
+    {
+      "label": "prototype_splice",
+      "start": [
+        84.5,
+        139.32608003507175,
+        265.5
+      ],
+      "axis": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "length": 20,
+      "receiver": null
+    }
+  ],
+  "prototype_inserts": [
+    {
+      "part": "rail_left_front_lower",
+      "entry": [
+        -96.0,
+        10.5,
+        117.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_lower",
+      "entry": [
+        -96.0,
+        10.5,
+        133.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_upper",
+      "entry": [
+        -96.0,
+        10.5,
+        262.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_left_front_upper",
+      "entry": [
+        -96.0,
+        10.5,
+        278.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_lower",
+      "entry": [
+        96.0,
+        10.5,
+        117.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_lower",
+      "entry": [
+        96.0,
+        10.5,
+        133.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_upper",
+      "entry": [
+        96.0,
+        10.5,
+        262.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    },
+    {
+      "part": "rail_right_front_upper",
+      "entry": [
+        96.0,
+        10.5,
+        278.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "depth": 5,
+      "length": 4
+    }
+  ],
+  "profile_checks": [
+    {
+      "variant": "unrestricted",
+      "part": "front",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "unrestricted",
+      "part": "rear",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "unrestricted",
+      "part": "left",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "unrestricted",
+      "part": "right",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "unrestricted",
+      "part": "bottom",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "unrestricted",
+      "part": "top",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "unrestricted",
+      "part": "brace",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_11",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_12",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_13",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_21",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_22",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "front_23",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_11",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_12",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_13",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_21",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_22",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "rear_23",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "left_11",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "left_12",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "left_21",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "left_22",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "right_11",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "right_12",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "right_21",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "right_22",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "bottom_11",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "bottom_12",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "bottom_21",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "bottom_22",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "top_11",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "top_12",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "top_21",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "top_22",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "brace_11",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "brace_12",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "brace_21",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    },
+    {
+      "variant": "a1_mini",
+      "part": "brace_22",
+      "DXF_symmetric_difference_mm3": 0.0,
+      "SVG_source": "same DXF entities",
+      "thickness_mm": 10
+    }
+  ],
+  "prototype_hardware_allowance_litres": 0.004
+}

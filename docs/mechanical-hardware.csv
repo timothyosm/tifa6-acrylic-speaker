@@ -1,0 +1,23 @@
+set,quantity,item,purpose
+production,32,M3 x 16 screw,Side/front/rear to rails
+production,8,M3 x 16 screw,Top/bottom to rails
+production,4,M3 x 16 screw,Brace to shelves
+production,8,M3 x 16 screw,Adapters to front
+production,4,M3 x 16 screw,Rear to crossover spacers
+production,2,M3 x 16 screw,Port coupling
+production,8,M3 x 10 screw,Drivers
+production,4,M3 x 20 screw,Port flange
+production,4,M3 x 6 screw,Crossover board
+production,60,"M3 heat-set insert, 4 mm long",Printed fittings; 4.2 mm pilots
+production,6,M3 plain nut,Port flange and coupling
+production,64,9 mm OD M3 flat washer,60 sheet-side heads + 4 port flange rear washers
+production,60,Compatible cushioning washer,Sheet-side heads; metal+cushion stack 1.5 mm
+production,4,7 mm OD M3 flat washer,Both ends of 2 port-coupling screws
+production,4,M3 female/female 20 mm spacer,Crossover
+production,2,Insulated binding post for 8 mm opening,Own nuts and seals
+production,1,120 x 90 x 2 insulating board,100 x 70 mm mounting pattern
+prototype_additional,42,M3 x 20 screw,Prototype splices
+prototype_additional,8,"M3 heat-set insert, 4 mm long",Additional front-rail pilots
+prototype_additional,34,M3 plain nut,Prototype splices except 8 front-rail receivers
+prototype_additional,76,7 mm OD M3 flat washer,42 heads + 34 nuts
+prototype_additional,42,Compatible cushioning washer,Prototype heads; total head washer stack 1.5 mm

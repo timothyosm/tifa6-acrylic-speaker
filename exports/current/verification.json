@@ -1,0 +1,231 @@
+{
+  "all_pass": true,
+  "variant": "whole panels and one-piece port",
+  "dimensions_width_depth_height_mm": [
+    220.0,
+    262.6521600701435,
+    380.0
+  ],
+  "STL_count": 19,
+  "sheet_parts": 7,
+  "printed_fittings": 12,
+  "physical_piece_count": 19,
+  "nominal_net_litres": 16.11514090579383,
+  "M3_screws": 72,
+  "M3_inserts": 60,
+  "M3_plain_nuts": 4,
+  "port_component_interferences": [],
+  "parts": [
+    {
+      "file": "front.stl",
+      "quantity": 1,
+      "kind": "sheet",
+      "size_mm": [
+        220.0,
+        380.0,
+        10.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rear.stl",
+      "quantity": 1,
+      "kind": "sheet",
+      "size_mm": [
+        220.0,
+        380.0,
+        10.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "left.stl",
+      "quantity": 1,
+      "kind": "sheet",
+      "size_mm": [
+        241.65216064453125,
+        359.0,
+        10.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "right.stl",
+      "quantity": 1,
+      "kind": "sheet",
+      "size_mm": [
+        241.65216064453125,
+        359.0,
+        10.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "bottom.stl",
+      "quantity": 1,
+      "kind": "sheet",
+      "size_mm": [
+        220.0,
+        241.65216064453125,
+        10.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "top.stl",
+      "quantity": 1,
+      "kind": "sheet",
+      "size_mm": [
+        220.0,
+        241.65216064453125,
+        10.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "brace.stl",
+      "quantity": 1,
+      "kind": "sheet",
+      "size_mm": [
+        199.0,
+        240.65216064453125,
+        10.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rail_left_front_lower.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        139.6535949707031,
+        139.65359497070312,
+        18.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rail_left_front_upper.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        139.65359497070312,
+        139.65359497070312,
+        38.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rail_left_rear_lower.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        139.65359497070312,
+        139.65359497070312,
+        18.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rail_left_rear_upper.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        139.65359497070312,
+        139.65359497070312,
+        38.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rail_right_front_lower.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        139.65359497070312,
+        139.65359497070312,
+        18.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rail_right_front_upper.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        139.65359497070312,
+        139.65359497070312,
+        38.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rail_right_rear_lower.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        139.65359497070312,
+        139.65359497070312,
+        18.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "rail_right_rear_upper.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        139.65359497070312,
+        139.65359497070312,
+        38.0
+      ],
+      "watertight": true
+    },
+    {
+      "file": "tweeter_adapter.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        125.99989318847656,
+        112.98756408691406,
+        13.5
+      ],
+      "watertight": true
+    },
+    {
+      "file": "woofer_adapter_lower.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        175.99989318847656,
+        99.9000015258789,
+        12.899999618530273
+      ],
+      "watertight": true
+    },
+    {
+      "file": "woofer_adapter_upper.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        175.99989318847656,
+        99.9000015258789,
+        12.899999618530273
+      ],
+      "watertight": true
+    },
+    {
+      "file": "bass_reflex_port.stl",
+      "quantity": 1,
+      "kind": "fitting",
+      "size_mm": [
+        96.0,
+        96.0,
+        185.0
+      ],
+      "watertight": true
+    }
+  ],
+  "physical_testing_performed": false,
+  "scope": "Current meshes rechecked; unchanged panel/fitting checks inherited from interference_report.json. New port checked against saved assembly and component envelopes. Volume includes unchanged estimated hardware and component allowances."
+}
